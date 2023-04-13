@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family= Righteous & family= Sarala & display = swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #a8763d 16.62%, #e29c32 85.61%);
+}
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    justify-content: space-around;
+    padding: 24px;
+}
+.logocabeçalho{
+   height: 72px; 
+}
+.cabeçalhomenu{
+    display: flex;
+    gap:24px;
+}
+.cabeçalhomenu1{
+    font-family: 'sarala', sans-serif;
+    color: #050302;
+    font-weight: 400;
+    font-size: 18px;
+}
+.conteudo{
+    margin-bottom: 10px;
+    border-top: 0.4px solid #000000;
+
+}
+
+.conteudoprincipal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    height:400px;
+}
+.imagemprincipal{
+    height: 250px;
+    width: 200px;
+    border: 4px solid black
+
+}
+.imagem2{
+    height: 250px;
+    width: 200px;
+    border: 4px solid black;
+}
+.imagem3{
+    height: 250px;
+    width: 200px;
+    border: 4px solid black;
+
+}
+.conteudoprincipalescrito{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.titulo{
+    font-family: 'righteous',cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: black;
+}
+.subtitulo{
+   font-family: 'sarala', sans-serif;
+   font-weight: 400;
+   font-size: 24px;
+   color: #fff2e7
+}
+
+.frase1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 30px;
+    border-top: 0.4px solid rgb(12, 11, 11);
+    padding-top: 24px ;
+}
+.frase2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+   
+}
+.frase3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    justify-content: space-around;
+    padding: 24px; 
+}
+.botao{
+    background-color: #fff2e7;
+    width: 185px;
+    height: 67px;
+    border: 10px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'sarala', sans-serif;
+    font-weight: 200px;
+    font-size: 20px;
+    color: #000000
+    
+}
+.botao:hover{
+    height: 70px;
+    background-color: #f0ad48
+    
+}
+.secundaria{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+
+
+}
+ 
